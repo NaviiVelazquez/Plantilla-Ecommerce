@@ -1,0 +1,19 @@
+/* Colores:
+Color primario: #aa66cc
+Color secundario:
+*/
+
+/* Estilo del cuerpo de la pagina */
+body {
+  font-family: sans-serif;
+}
+
+/* Agregamos diseño al header */
+#header-container {
+  background-color: #aa66cc;
+  color: white;
+}
+
+#header-container .container-fluid {
+  border: 1px solid red;
+}
