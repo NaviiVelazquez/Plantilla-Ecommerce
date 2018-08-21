@@ -1,6 +1,7 @@
 /* Colores:
 Color primario: #aa66cc
-Color secundario:
+Color secundario: #9933CC
+Color terciario: #ffffff
 */
 
 /* Estilo del cuerpo de la pagina */
@@ -14,6 +15,37 @@ body {
   color: white;
 }
 
-#header-container .container-fluid {
+.row {
   border: 1px solid red;
+}
+
+.columna {
+  border: 1px solid green;
+}
+
+/* Damos tamaño a la imagen que se usara para logotipo */
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+/* Color de la barra de navegacion */
+#menu-container {
+  background-color: #f7f7f9;
+}
+
+/* color delboton buscar */
+.btn.btn-Navi {
+  background-color: #aa66cc;
+  color: white;
+}
+
+/* Color cuando se pasa mouse en el boton buscar */
+.btn.btn-Navi:hover {
+  background-color: #9933CC;
+}
+
+/* Color de borde del input buscar */
+input.form-control {
+  border-color: #aa66cc;
 }
