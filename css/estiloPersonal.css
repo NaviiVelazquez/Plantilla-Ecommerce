@@ -49,3 +49,8 @@ body {
 input.form-control {
   border-color: #aa66cc;
 }
+
+/* Margenes de las imagenes del carousel */
+#productosCarousel img {
+  margin: 0 auto;
+}
