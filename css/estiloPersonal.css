@@ -54,3 +54,20 @@ input.form-control {
 #productosCarousel img {
   margin: 0 auto;
 }
+
+/* Estilos para la seccion de infomación */
+#info-container {
+  background-color: #aa66cc;
+  color: white;
+}
+
+/* Margen del texto */
+#info-container h4 {
+  margin: 1em 0;
+}
+
+/* Margen de las imagenes */
+#info-container img {
+  margin: 0 auto;
+  margin-top: 2em;
+}
