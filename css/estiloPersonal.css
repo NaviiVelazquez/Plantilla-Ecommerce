@@ -23,6 +23,10 @@ body {
   border: 1px solid green;
 }
 
+.div {
+  border: 1px solid blue;
+}
+
 /* Damos tamaño a la imagen que se usara para logotipo */
 .logo {
   width: 50px;
@@ -70,4 +74,28 @@ input.form-control {
 #info-container img {
   margin: 0 auto;
   margin-top: 2em;
+}
+
+/* Estilo del footer y margenes */
+#footer-container {
+  background-color: #000000;
+  color: white;
+  padding: 3em 0;
+}
+
+/* Tamaño de la etiqueta de titulo */
+#footer-container h4 {
+  font-size: 16px;
+}
+
+/* Color del texto del menu de navegacion */
+#footer-container .list-group-item {
+  color: black;
+}
+
+/* Margen para las columnas para visualizacion desde resoluciones bajas */
+@media (max-width: 768px){
+  #footer-container [class*="col-"] {
+    margin-bottom: 2em;
+  }
 }
