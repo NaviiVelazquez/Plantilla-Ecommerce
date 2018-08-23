@@ -1,3 +1,4 @@
+// Para validar envio de correo en formulario de suscripcion
 const $form = $('#suscribeForm')
 const $formGroup = $form.find('.form-group')
 const $formControl = $formGroup.find('.form-control')
@@ -21,3 +22,9 @@ $form.submit(function (ev) {
   el.addClass('form-control-feedback')
   $formGroup.append(el)
 })
+
+
+// Para lanzar automaticamente modal al momento de entrar a la pagina de catalogo
+function mostrarModal() {
+  $('#modalOferta').modal()
+}

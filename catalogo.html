@@ -58,11 +58,11 @@
           <nav class="navbar navbar-expand navbar-light bg-light">
             <!-- Lista de barra de navegacion -->
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="index.html"><i class="fa fa-home mr-1"></i>Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="catalogo.html"><i class="fa fa-book mr-1"></i>Catálogo</a>
+                <a class="nav-link active" href="catalogo.html"><i class="fa fa-book mr-1"></i>Catálogo</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fa fa-shopping-cart mr-1"></i>Carrito</a>
@@ -103,106 +103,6 @@
       <!-- Se crea fila -->
     </div>
     <!-- /Menu -->
-
-    <!-- Carousel -->
-    <div id="carousel-container">
-      <!-- carousel -->
-      <div id="productosCarousel" class="carousel slide" data-ride="carousel">
-        <!-- lista de indicador para el cambio de imagenes -->
-        <ol class="carousel-indicators">
-          <li data-target="#productosCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#productosCarousel" data-slide-to="1"></li>
-          <li data-target="#productosCarousel" data-slide-to="2"></li>
-        </ol>
-        <!-- /lista de indicador para el cambio de imagenes -->
-        <div class="carousel-inner">
-          <!-- items de carousel -->
-          <div class="carousel-item active">
-            <!-- imagen -->
-            <img class="d-block w-100" src="Imagenes/2.jpg" alt="Primer producto">
-            <!-- /imagen -->
-            <!-- Texto de descripcion de la imagen -->
-            <div class="carousel-caption d-none d-md-block">
-              <h4>Producto 1</h4>
-              <p class="d-none d-sm-none d-md-block">Quisque sed diam vitae leo tincidunt fermentum. Morbi in sem vitae libero consectetur pharetra
-                 at in quam. Fusce risus ante, pharetra quis ex id, tristique tempus urna. Interdum et malesuada
-                 fames ac ante ipsum primis in faucibus.
-              </p>
-            </div>
-            <!-- /Texto de descripcion de la imagen -->
-          </div>
-          <div class="carousel-item">
-            <!-- imagen -->
-            <img class="d-block w-100" src="Imagenes/1.jpg" alt="Segundo producto">
-            <!-- /imagen -->
-            <!-- Texto de descripcion de la imagen -->
-            <div class="carousel-caption d-none d-md-block">
-              <h4>Producto 2</h4>
-              <p class="d-none d-sm-none d-md-block">Proin ex dolor, iaculis vitae erat nec, dapibus fermentum est. Ut elementum et diam eget elementum.
-                 Maecenas sed sapien aliquet nibh ullamcorper tristique quis non enim. Nunc quis erat mattis, elementum
-                 diam sed, ultricies purus.
-              </p>
-            </div>
-            <!-- /Texto de descripcion de la imagen -->
-          </div>
-          <div class="carousel-item">
-            <!-- imagen -->
-            <img class="d-block w-100" src="Imagenes/3.jpg" alt="Tercero producto">
-            <!-- /imagen -->
-            <!-- Texto de descripcion de la imagen -->
-            <div class="carousel-caption d-none d-md-block">
-              <h4>Producto 3</h4>
-              <p class="d-none d-sm-none d-md-block">Duis vel neque eu augue lobortis pretium et vel ex. Phasellus ipsum purus, sollicitudin id velit non,
-                maximus mattis nibh. Pellentesque at est in dolor fringilla mattis.
-              </p>
-            </div>
-            <!-- /Texto de descripcion de la imagen -->
-          </div>
-        </div>
-        <!-- /items de carousel -->
-        <!-- Flechas de navegacion del carousel -->
-        <a class="carousel-control-prev" href="#productosCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Producto anterior</span>
-        </a>
-        <!-- /Flechas de navegacion del carousel -->
-        <!-- Flechas de navegacion del carousel -->
-        <a class="carousel-control-next" href="#productosCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Producto siguiente</span>
-        </a>
-        <!-- /Flechas de navegacion del carousel -->
-      </div>
-      <!-- /carousel -->
-    </div>
-    <!-- /Carousel -->
-
-    <!-- Información -->
-    <div id="info-container">
-      <!-- Contenedor de las colunas -->
-      <div class="container">
-        <!-- fila de las columnas -->
-        <div class="row text-sm-center">
-          <!-- colunas -->
-          <div class="col-sm-12 col-md-4">
-            <img src="Imagenes/Calidad.png" alt="" class="img-fluid">
-            <h3>Calidad</h3>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <img src="Imagenes/Envio.png" alt="" class="img-fluid">
-            <h3>Envio Gratis</h3>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <img src="Imagenes/Soporte.png" alt="" class="img-fluid">
-            <h3>Soporte</h3>
-          </div>
-          <!-- /colunas -->
-        </div>
-        <!-- /fila de las columnas -->
-      </div>
-      <!-- /Contenedor de las colunas -->
-    </div>
-    <!-- /Información -->
 
     <!-- Footer -->
     <footer id="footer-container">
@@ -258,6 +158,60 @@
     </footer>
     <!-- /Footer -->
 
+    <!-- Modal -->
+    <div class="modal fade" id="modalOferta">
+      <!-- Cuerpo del modal -->
+      <div class="modal-dialog modal-lg">
+        <!-- contenido del modal -->
+        <div class="modal-content">
+          <!-- Titulo del modal -->
+          <div class="modal-header">
+            <!-- etiqueta -->
+            <h4 class="modal-title">Oferta exclusiva</h4>
+            <!-- /etiqueta -->
+            <!-- botton para cerrar modal -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- /botton para cerrar modal -->
+          </div>
+          <!-- /Titulo del modal -->
+          <!-- cuerpo del modal -->
+          <div class="modal-body">
+          Regístrate hoy y recibe $50 de descuento!
+          <!-- formulario para correo -->
+          <form action="#" class="form">
+            <!-- divicion contenedora de elementos -->
+            <div class="form-group">
+              <!-- input -->
+              <input type="email" class="form-control mt-3" id="email" name="email" placeholder="micorreo@correo.com">
+              <!-- /input -->
+              <!-- Etiqueta -->
+              <small class="form-text text-muted">
+                Tu información está protegida
+              </small>
+              <!-- /Etiqueta -->
+            </div>
+            <!-- divicion contenedora de elementos -->
+          </form>
+          <!-- formulario para correo -->
+          </div>
+          <!-- /cuerpo del modal -->
+          <!-- Footer del modal -->
+          <div class="modal-footer">
+            <!-- botones  -->
+            <button type="button" class="btn btn-danger" data-dismiss="modal">No, no quiero el descuento</button>
+            <button type="submit" class="btn btn-Navi">Regístrame</button>
+            <!-- /botones  -->
+          </div>
+          <!-- /Footer del modal -->
+        </div>
+        <!-- contenido del modal -->
+      </div>
+      <!-- /Cuerpo del modal -->
+    </div>
+    <!-- /Modal -->
+
 
     <!-- Imporacion de Bootstrap Js & Jquery -->
     <script src="js/jquery-3.3.1.min.js"></script>
@@ -266,6 +220,9 @@
     <!-- Importacion de archivo para validacion de envio de email -->
     <script src="js/validacionSuscripcion.js"></script>
     <!-- /Importacion de archivo para validacion de envio de email -->
+    <!-- Para mandar llamar modal de descuento -->
+    <script>mostrarModal()</script>
+    <!-- /Para mandar llamar modal de descuento -->
   </body>
   <!-- /Inicio del cuerpo -->
 </html>
