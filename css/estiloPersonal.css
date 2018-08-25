@@ -99,3 +99,25 @@ input.form-control {
     margin-bottom: 2em;
   }
 }
+
+/* Estilo del breadcrumb del catalogo */
+#breadcrumbs-container .breadcrumb {
+  background-color: white;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+/* Color para elementos selccionados */
+#breadcrumbs-container .breadcrumb .breadcrumb-item {
+  color: #000000;
+}
+
+/* Color de elementos activos */
+#breadcrumbs-container .breadcrumb .breadcrumb-item.active {
+  color: #aa66cc;
+}
+
+/* Para Cambiar el simbolo de diagonal*/
+#breadcrumbs-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+  content: ">";
+}
