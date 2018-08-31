@@ -121,3 +121,20 @@ input.form-control {
 #breadcrumbs-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
   content: ">";
 }
+
+/* Estilo para titulos de los elementos activos de los filtros */
+#filtros-container .list-group-item-action.active {
+  background-color: #aa66cc;
+  border-color: #aa66cc;
+}
+
+/* Margenes de los filtros */
+#filtros-container .list-group {
+  margin-bottom: 1em;
+}
+
+/* Margen superior e inferior del contenedor de los filtros */
+#filtros-container {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
