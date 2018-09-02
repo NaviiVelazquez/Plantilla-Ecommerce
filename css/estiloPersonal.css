@@ -138,3 +138,26 @@ input.form-control {
   margin-top: 1em;
   margin-bottom: 2em;
 }
+
+/* Margenes de la columna de productos */
+#fila-productos {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Bordes del contenedor de paginacion */
+#Paginator-container {
+  margin-bottom: 2em; 
+}
+
+/* Estilo del elemento de paginas */
+#Paginator-container .page-item:not(.active):not(.disabled) .page-link {
+  color: #aa66cc;
+}
+
+/* Estilo del elemento de paginas */
+#Paginator-container .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+  background-color: #aa66cc;
+  border-color: #aa66cc;
+  color: white;
+}
