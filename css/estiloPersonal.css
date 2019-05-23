@@ -54,6 +54,13 @@ input.form-control {
   border-color: #aa66cc;
 }
 
+/* Color de la sombra del input de buscar */
+#inputBuscar:focus {
+  outline: none !important;
+  border-color: #aa66cc;
+  box-shadow: 0 0 10px #aa66cc;
+}
+
 /* Margenes de las imagenes del carousel */
 #productosCarousel img {
   margin: 0 auto;
@@ -93,6 +100,18 @@ input.form-control {
   color: black;
 }
 
+/* Color de la sombra del input de correo */
+#inputCorreo:focus {
+  outline: none !important;
+  border-color: #aa66cc;
+  box-shadow: 0 0 10px #aa66cc;
+}
+
+/* Color del elemento de la lista del footer al entrar el raton */
+#listaFooter a:hover {
+  background-color: #aa66cc;
+}
+
 /* Margen para las columnas para visualizacion desde resoluciones bajas */
 @media (max-width: 768px){
   #footer-container [class*="col-"] {
@@ -120,6 +139,16 @@ input.form-control {
 /* Para Cambiar el simbolo de diagonal*/
 #breadcrumbs-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
   content: ">";
+}
+
+/* Color del elemento de la lista Categoria al entrar el raton */
+#listaCategoria a:hover {
+  background-color: #dadada;
+}
+
+/* Color del elemento de la lista Estilo al entrar el raton */
+#listaEstilo a:hover {
+  background-color: #dadada;
 }
 
 /* Estilo para titulos de los elementos activos de los filtros */
@@ -160,4 +189,9 @@ input.form-control {
   background-color: #aa66cc;
   border-color: #aa66cc;
   color: white;
+}
+
+/* Color del pagination al entrar el raton */
+#Paginator-container nav ul li a:hover {
+  background-color: #dadada;
 }
