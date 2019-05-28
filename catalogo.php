@@ -19,89 +19,11 @@
   <!-- Inicio del cuerpo -->
   <body>
     <!-- Inicio de Header -->
-    <header id="header-container">
-      <!-- Contenedor de las Filas & columnas -->
-      <div class="container-fluid">
-        <!-- Fila -->
-        <div class="row align-items-sm-center">
-          <!-- Columna logotipo -->
-          <div class="col-sm-1 d-flex justify-content-sm-center columna">
-            <img class="img-fluid logo" src="Imagenes/logo.png">
-          </div>
-          <!-- /Columna logotipo -->
-          <!-- Columna nombre principal -->
-          <div class="col-sm-8 d-flex justify-content-sm-center justify-content-lg-start columna">
-            <h1>Navi Shop</h1>
-          </div>
-          <!-- /Columna nombre principal -->
-          <!-- Columna de boton -->
-          <div class="col-sm-3 d-flex justify-content-sm-center justify-content-lg-end  columna">
-            <button type="button" class="btn btn-dark">
-              Iniciar Session<i class="fa fa-sign-in-alt ml-1"></i>
-            </button>
-          </div>
-          <!-- Columna de boton -->
-        </div>
-        <!-- /Fila -->
-      </div>
-      <!-- /Contenedor de las columnas -->
-    </header>
+    <?php include("Componentes/Header.php"); ?>
     <!-- /Inicio de Header -->
 
     <!-- Menu -->
-    <div id="menu-container" class="container-fluid">
-      <!-- Se crea fila -->
-      <div class="row">
-        <!-- se crea contenedor del menu -->
-        <div class="columna col-sm-10 col-md-4">
-          <!-- Barra de navegacion -->
-          <nav class="navbar navbar-expand navbar-light bg-light">
-            <!-- Lista de barra de navegacion -->
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html"><i class="fa fa-home mr-1"></i>Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="catalogo.html"><i class="fa fa-book mr-1"></i>Catálogo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Carrito.html"><i class="fa fa-shopping-cart mr-1"></i>Carrito</a>
-              </li>
-            </ul>
-            <!-- /Lista de barra de navegacion -->
-          </nav>
-          <!-- /Barra de navegacion -->
-        </div>
-        <!-- /se crea contenedor del menu -->
-        <!-- Divicion de la barra de buscar -->
-        <div class="columna col-sm-12 col-md-6 offset-md-2 d-flex align-items-sm-center">
-          <!-- Formulario -->
-          <from class="d-flex flex-sm-fill">
-            <!-- divicion para elementos -->
-            <div class="columna input-group">
-              <!-- input -->
-              <input id="inputBuscar" type="text" class="form-control" placeholder="¿Encontró lo que buscaba?">
-              <!-- /input -->
-              <!-- Grupo de elementos  -->
-              <span class="input-group-btn">
-                <!-- Boton -->
-                <button class="btn btn-Navi" type="button">
-                  <span class="d-none d-sm-none d-md-block">Buscar</span>
-                  <i class="fa fa-search d-block d-sm-block d-md-none" style="font-size:24px;"></i>
-                </button>
-                <!-- /Boton -->
-              </span>
-              <!-- /Grupo de elementos  -->
-              <!-- /divicion para elementos -->
-            </div>
-            <!-- /divicion para elementos -->
-          </from>
-          <!-- /Formulario -->
-        </div>
-        <!-- /Divicion de la barra de buscar -->
-      </div>
-      <!-- Se crea fila -->
-    </div>
+    <?php include("Componentes/Menu.php"); ?>
     <!-- /Menu -->
 
     <!-- Breadcrumbs -->
@@ -549,57 +471,7 @@
     <!-- /Productos -->
 
     <!-- Footer -->
-    <footer id="footer-container">
-      <!-- divicion contenedora -->
-      <div class="container">
-        <!-- fila con texto centrado -->
-        <div class="row text-sm-center">
-          <!-- Columna de suscripcion -->
-          <div class="col-md-5 mt-5">
-            <!-- Formulario -->
-            <form id="suscribeForm" action="#" method="POST">
-              <!-- Titulo para atraer al usuario -->
-              <h4 class="text-uppercase">
-                ¿Quieres recibir todas las novedades?
-              </h4>
-              <!-- /Titulo para atraer al usuario -->
-              <!-- Divicion para el el input -->
-              <div class="form-group">
-                <input id="inputCorreo" type="email" class="form-control" id="email" name="email" placeholder="micorreo@correo.com">
-                <!-- Etiqueta para generar confianza -->
-                <small class="form-text text-muted">
-                  <i class="fa fa-lock mr-1"></i>Tu información está protegida
-                </small>
-                <!-- /Etiqueta para generar confianza -->
-              </div>
-              <!-- /Divicion para el el input -->
-              <!-- Boton para envio de correo -->
-              <button type="submit" class="btn btn-primary form-text mt-2">
-                Suscribirme
-              </button>
-              <!-- /Boton para envio de correo -->
-            </form>
-            <!-- Formulario -->
-          </div>
-          <!-- /Columna de suscripcion -->
-          <!-- Divicion para el menu de navegacion -->
-          <div class="col-md-5 offset-md-2">
-            <!-- lista de navegación -->
-            <ul id="listaFooter" class="list-group">
-                <a href="index.html" class="list-group-item list-group-item-action">Inicio</a>
-                <a href="catalogo.html" class="list-group-item list-group-item-action">Catálogo</a>
-                <a href="Carrito.html" class="list-group-item list-group-item-action">Carrito</a>
-                <a href="#" class="list-group-item list-group-item-action">FAQ</a>
-                <a href="#" class="list-group-item list-group-item-action">Contacto</a>
-            </ul>
-            <!-- /lista de navegación -->
-          </div>
-          <!-- /Divicion para el menu de navegacion -->
-        </div>
-        <!-- /fila con texto centrado -->
-      </div>
-      <!-- /divicion contenedora -->
-    </footer>
+    <?php include("Componentes/Footer.php"); ?>
     <!-- /Footer -->
 
     <!-- Modal -->
@@ -628,7 +500,7 @@
             <!-- divicion contenedora de elementos -->
             <div class="form-group">
               <!-- input -->
-              <input type="email" class="form-control mt-3" id="email" name="email" placeholder="micorreo@correo.com">
+              <input type="email" class="form-control mt-3" id="inputCorreoModal" name="email" placeholder="micorreo@correo.com">
               <!-- /input -->
               <!-- Etiqueta -->
               <small class="form-text text-muted">

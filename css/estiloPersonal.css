@@ -107,6 +107,13 @@ input.form-control {
   box-shadow: 0 0 10px #aa66cc;
 }
 
+/* Color de la sombra del input de correo del modal*/
+#inputCorreoModal:focus {
+  outline: none !important;
+  border-color: #aa66cc;
+  box-shadow: 0 0 10px #aa66cc;
+}
+
 /* Color del elemento de la lista del footer al entrar el raton */
 #listaFooter a:hover {
   background-color: #aa66cc;
