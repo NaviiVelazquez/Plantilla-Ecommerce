@@ -30,21 +30,17 @@
     <div id="contenidoPrincipal" class="mt-5 mb-5 ml-3">
       <!-- Tabla de productos -->
       <div id="tablaProductos" class="col-md-9 shadow">
-          <!-- Titulos de las columnas de la tabla -->
-          <div class="table-responsive">
-            <table id="tituloTabla" class="table table-bordered mt-3">
-              <tr>
+        <!-- Tabla de productos -->
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered mt-3">
+              <!-- Titulos de las columnas de la tabla -->
+              <tr id="tituloTabla">
                 <th class="col-md-3">Producto</th>
                 <th class="col-md-2">Envio a</th>                  
                 <th class="col-md-2">Precio unitario</th>
                 <th class="col-md-2">Cantidad</th>
               </tr>
-            </table>            
-          </div>
-          <!-- Titulos de las columnas de la tabla -->
-          <!-- Tabla de productos -->
-          <div class="table-responsive">
-            <table class="table table-striped table-bordered mt-0">
+              <!-- /Titulos de las columnas de la tabla -->
               <!-- Cuerpo de la tabla -->
               <tbody>
                 <!-- Fila de la tabla -->
@@ -227,13 +223,13 @@
               </tbody>
               <!-- /Cuerpo de la tabla -->
             </table>
-          </div>
-          <!-- /Tabla de productos -->
+        </div>
+        <!-- /Tabla de productos -->
       </div>
-      <!-- /Tabla de productos -->
-      <!-- Detalle de compra -->
-      <div class="col-md-3">
-      </div>
+        <!-- /Tabla de productos -->
+        <!-- Detalle de compra -->
+        <div class="col-md-3">
+        </div>
       <!-- Detalle de compra -->
     </div>
     <!-- /Contenido principal -->
