@@ -15,18 +15,6 @@ body {
   color: white;
 }
 
-.row {
-  border: 1px solid red;
-}
-
-.columna {
-  border: 1px solid green;
-}
-
-.div {
-  border: 1px solid blue;
-}
-
 /* Damos tamaño a la imagen que se usara para logotipo */
 .logo {
   width: 50px;
@@ -35,7 +23,7 @@ body {
 
 /* Color de la barra de navegacion */
 #menu-container {
-  background-color: #f7f7f9;
+  background-color: #eeeeee;
 }
 
 /* color delboton buscar */
@@ -198,7 +186,74 @@ input.form-control {
   color: white;
 }
 
-/* Color del pagination al entrar el raton */
+/* Color de la paginacion al entrar el raton */
 #Paginator-container nav ul li a:hover {
   background-color: #dadada;
+}
+
+/* Seccion donde va la tabla de productos */
+#tablaProductos {
+  background-color: #fafafa;
+}
+
+/* Titulo de la tabla de productos del carrito */
+#tituloTabla {
+  background-color: #aa66cc;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Celda donde se encuentra el producto por comprar */
+#celdaProducto {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+/* Imagen que esta dentro de la celda producto */
+#imgProducto {
+  width:70px;
+  height:60px;
+}
+
+/* Nombre del producto en la celda */
+#nombreProducto {
+  box-sizing: border-box;
+}
+
+/* Color del texto en la celda */
+#nomProducto {
+  color: #000000;
+}
+
+/* Efecto del texto en la celda */
+#nomProducto:hover {
+  color: #9933CC;
+}
+
+/* Celda donde se elige a donde enviar el producto */
+#opcionEnvio {
+  align-items: center;
+  justify-content:center;
+}
+
+/* Color del texto del radio al entrar el raton */
+#radioEnvio:hover {
+  color: #9933CC;
+}
+
+/* Celda donde se encuentra la cantidad del producto por comprar */
+#celdaCantidad {
+  display: flex;
+}
+
+/* Color del combo de numero de piezas */
+#comboPiezas {
+  border-color: #aa66cc;
+}
+
+/* Color del combo de numero de piezas al selecionarlo */
+#comboPiezas:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px #aa66cc;
 }

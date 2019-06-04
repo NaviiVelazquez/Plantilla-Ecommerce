@@ -65,7 +65,7 @@
           <div class="col-sm-12 col-md-3">
             <div id="filtros-container">
               <!-- filtros de categoria -->
-              <div id="listaCategoria" class="list-group shadow">
+              <div id="listaCategoria" class="list-group shadow-lg">
                 <!-- Elementos de la lista -->
                 <a href="#" class="list-group-item list-group-item-action active">
                   <h5 class="list-group-item-heading">Categoría</h5>
@@ -83,7 +83,7 @@
               </div>
               <!-- /filtros de categoria -->
               <!-- filtros de color -->
-              <div class="list-group shadow">
+              <div class="list-group shadow-lg">
                 <!-- Elementos de la lista -->
                 <a href="#" class="list-group-item list-group-item-action active">
                   <h5 class="list-group-item-heading">Color</h5>
@@ -107,7 +107,7 @@
               </div>
               <!-- /filtros de color -->
               <!-- filtros de Estilo -->
-              <div id="listaEstilo" class="list-group shadow">
+              <div id="listaEstilo" class="list-group shadow-lg">
                 <!-- Elementos de la lista -->
                 <a href="#" class="list-group-item list-group-item-action active">
                   <h5 class="list-group-item-heading">Estilo</h5>

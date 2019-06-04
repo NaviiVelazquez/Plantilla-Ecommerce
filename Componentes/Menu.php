@@ -3,9 +3,9 @@
     <!-- Se crea fila -->
     <div class="row">
       <!-- se crea contenedor del menu -->
-      <div class="columna col-sm-10 col-md-4">
+      <div class="col-sm-10 col-md-4">
         <!-- Barra de navegacion -->
-        <nav class="navbar navbar-expand navbar-light bg-light">
+        <nav class="navbar navbar-expand navbar-light">
           <!-- Lista de barra de navegacion -->
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -24,11 +24,11 @@
       </div>
       <!-- /se crea contenedor del menu -->
       <!-- Divicion de la barra de buscar -->
-      <div class="columna col-sm-12 col-md-6 offset-md-2 d-flex align-items-sm-center">
+      <div class="col-sm-12 col-md-6 offset-md-2 d-flex align-items-sm-center">
         <!-- Formulario -->
         <from class="d-flex flex-sm-fill">
           <!-- divicion para elementos -->
-          <div class="columna input-group">
+          <div class="input-group">
             <!-- input -->
             <input id="inputBuscar" type="text" class="form-control" placeholder="¿Encontró lo que buscaba?">
             <!-- /input -->
