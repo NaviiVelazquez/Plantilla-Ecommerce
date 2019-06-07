@@ -27,9 +27,9 @@
     <!-- /Menu -->
 
     <!-- Contenido principal -->
-    <div id="contenidoPrincipal" class="mt-5 mb-5 ml-3">
+    <div id="contenidoPrincipal" class="row mt-5 mb-5 ml-3 mr-3">
       <!-- Tabla de productos -->
-      <div id="tablaProductos" class="col-md-9 shadow">
+      <div id="tablaProductos" class="col-sm-12 col-md-8 shadow">
         <!-- Tabla de productos -->
         <div class="table-responsive">
             <table class="table table-striped table-bordered mt-3">
@@ -226,10 +226,88 @@
         </div>
         <!-- /Tabla de productos -->
       </div>
-        <!-- /Tabla de productos -->
-        <!-- Detalle de compra -->
-        <div class="col-md-3">
-        </div>
+      <!-- /Tabla de productos -->
+      <!-- Detalle de compra -->
+      <div id="resumenCompra" class="col-sm-12 col-md-4 shadow">
+        <!-- Resumen de la compra -->
+        <section>
+          <!-- Titulo -->
+          <div class="ml-2 mr-2 mt-3 mb-3 border-bottom border-secondary">
+            <h5 id="tituloResumen">
+              <strong>Resumen de pedido</strong>
+            </h5>
+          </div>
+          <!-- /Titulo -->
+          <!-- Input de cupon -->
+          <div class="ml-2 mr-2 mt-1 mb-5">
+            <div class="input-group">
+              <!-- input -->
+              <input id="inputCupon" type="text" class="form-control" placeholder="¿Tienes un cupón?" maxlength="12">
+              <!-- /input -->
+              <!-- Grupo de elementos  -->
+              <span class="input-group-btn">
+                <!-- Boton -->
+                <button class="btn btn-Navi" type="button">
+                  <span>Aplicar</span>
+                </button>
+                <!-- /Boton -->
+              </span>
+              <!-- /Grupo de elementos  -->
+            </div>
+            <!-- /divicion para elementos -->
+          </div>
+          <!-- /Input de cupon -->
+          <!-- Texto del detalle -->
+          <div class="ml-2 mr-2 mt-1 mb-5">
+            <!-- Subtotal -->
+            <div id="subtotalRow" class="mt-2 mb-2">
+              <div class="w-50">Subtotal :</div>
+              <div class="w-50 d-flex justify-content-end">
+                <strong>$ 9,797</strong>
+              </div>
+            </div>
+            <!-- /Subtotal -->
+            <!-- Envio -->
+            <div id="envioRow" class="mb-2">
+              <div class="w-50">Envío :</div>
+              <div class="w-50 d-flex justify-content-end">
+                <strong>Gratis</strong>
+              </div>
+            </div>
+            <!-- /Envio -->
+            <!-- Total a pagar -->
+            <div id="totalRow">
+              <div class="w-50">Total :</div>
+              <div class="w-50 d-flex justify-content-end">
+                <strong>$ 9,797</strong>
+              </div>
+            </div>
+            <!-- /Total a pagar -->
+          </div>
+          <!-- /Texto del detalle -->
+          <!-- Boton para pagar -->
+          <div class="ml-2 mr-2 mt-1 mb-3">
+            <div>
+              <button type="button" class="btn btn-outline-success btn-block">
+                Continuar con la compra
+                <i class="fa fa-chevron-right ml-2"></i>
+              </button>
+            </div>
+          </div>
+          <!-- /Boton para pagar -->
+          <!-- Boton para agregar mas productos -->
+          <div class="ml-2 mr-2 mt-1 mb-3">
+            <div>
+              <button type="button" class="btn btn-outline-secondary btn-block">
+              Agregar más productos
+              <i class="fa fa fa-plus ml-2"></i>
+              </button>
+            </div>
+          </div>
+          <!-- /Boton para agregar mas productos -->
+        </section>
+        <!-- /Resumen de la compra -->
+      </div>
       <!-- Detalle de compra -->
     </div>
     <!-- /Contenido principal -->

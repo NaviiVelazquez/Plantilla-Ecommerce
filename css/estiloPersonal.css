@@ -257,3 +257,36 @@ input.form-control {
   outline: none !important;
   box-shadow: 0 0 10px #aa66cc;
 }
+
+/* Color de fondo del resumen de la compra */
+#resumenCompra {
+  background-color: #fafafa;
+}
+
+/* Color del titulo del resumen */
+#tituloResumen {
+  color: #444444;
+}
+
+/* Color de la sombra del input de cupon */
+#inputCupon:focus {
+  outline: none !important;
+  border-color: #aa66cc;
+  box-shadow: 0 0 10px #aa66cc;
+  text-transform: uppercase;
+}
+
+/* Alineacion de la fila del Subtotal */
+#subtotalRow {
+  display: flex;
+}
+
+/* Alineacion de la fila del Envio */
+#envioRow {
+  display: flex;
+}
+
+/* Alineacion de la fila del Total a pagar */
+#totalRow {
+  display: flex;
+}
