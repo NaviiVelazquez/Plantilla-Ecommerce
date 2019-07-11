@@ -27,7 +27,7 @@
     <!-- /Menu -->
 
     <!-- Contenido principal -->
-    <div id="contenidoPrincipal" class="row mt-5 mb-5 ml-3 mr-3">
+    <div id="contenidoPrincipal" class="row my-5 mx-3">
       <!-- Tabla de productos -->
       <div id="tablaProductos" class="col-sm-12 col-md-8 shadow">
         <!-- Tabla de productos -->
@@ -228,18 +228,18 @@
       </div>
       <!-- /Tabla de productos -->
       <!-- Detalle de compra -->
-      <div id="resumenCompra" class="col-sm-12 col-md-4 shadow">
+      <div id="resumenCompra" class="col-sm-12 col-md-4 pt-md-3 pt-sm-5">
         <!-- Resumen de la compra -->
-        <section>
+        <section class="shadow p-2">
           <!-- Titulo -->
-          <div class="ml-2 mr-2 mt-3 mb-3 border-bottom border-secondary">
+          <div class="mx-2 my-3 border-bottom border-secondary">
             <h5 id="tituloResumen">
               <strong>Resumen de pedido</strong>
             </h5>
           </div>
           <!-- /Titulo -->
           <!-- Input de cupon -->
-          <div class="ml-2 mr-2 mt-1 mb-5">
+          <div class="mx-2 mt-1 mb-5">
             <div class="input-group">
               <!-- input -->
               <input id="inputCupon" type="text" class="form-control" placeholder="¿Tienes un cupón?" maxlength="12">
@@ -258,7 +258,7 @@
           </div>
           <!-- /Input de cupon -->
           <!-- Texto del detalle -->
-          <div class="ml-2 mr-2 mt-1 mb-5">
+          <div class="mx-2 mt-1 mb-5">
             <!-- Subtotal -->
             <div id="subtotalRow" class="mt-2 mb-2">
               <div class="w-50">Subtotal :</div>
@@ -286,21 +286,25 @@
           </div>
           <!-- /Texto del detalle -->
           <!-- Boton para pagar -->
-          <div class="ml-2 mr-2 mt-1 mb-3">
+          <div class="mx-2 mt-1 mb-3">
             <div>
               <button type="button" class="btn btn-outline-success btn-block">
-                Continuar con la compra
-                <i class="fa fa-chevron-right ml-2"></i>
+                <div class="row justify-content-center align-items-center">
+                  <span class="d-none d-sm-block d-md-none d-lg-block">Continuar con la compra</span>
+                  <i class="fa fa-chevron-right ml-2"></i>
+                </div>
               </button>
             </div>
           </div>
           <!-- /Boton para pagar -->
           <!-- Boton para agregar mas productos -->
-          <div class="ml-2 mr-2 mt-1 mb-3">
+          <div class="mx-2 mt-1 mb-3">
             <div>
               <button type="button" class="btn btn-outline-secondary btn-block">
-              Agregar más productos
-              <i class="fa fa fa-plus ml-2"></i>
+                <div class="row justify-content-center align-items-center">
+                  <span class="d-none d-sm-block d-md-none d-lg-block">Agregar más productos</span>
+                  <i class="fa fa fa-plus ml-2"></i>
+                </div>
               </button>
             </div>
           </div>
@@ -311,6 +315,16 @@
       <!-- Detalle de compra -->
     </div>
     <!-- /Contenido principal -->
+
+    <!-- Aviso de protecion de datos -->
+    <hr>
+    <div class="container-fluid mx-2">
+      <div class="row align-items-center justify-content-center justify-content-sm-start pb-2">
+        <span class="lead mr-2 mr-sm-0 ml-md-2">En Navi Shop protegemos tu compra y tus datos</span>
+        <i class="fa fa-lock mr-4 ml-sm-2"></i>
+      </div>
+    </div>
+    <!-- /Aviso de protecion de datos -->
 
     <!-- Footer -->
     <?php include("Componentes/Footer.php"); ?>

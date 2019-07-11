@@ -3,19 +3,34 @@
     <!-- Se crea fila -->
     <div class="row">
       <!-- se crea contenedor del menu -->
-      <div class="col-sm-10 col-md-4">
+      <div class="col-sm-12 col-md-6 pl-0">
         <!-- Barra de navegacion -->
-        <nav class="navbar navbar-expand navbar-light">
+        <nav class="row navbar navbar-expand navbar-light justify-content-center justify-content-sm-center justify-content-md-start">
           <!-- Lista de barra de navegacion -->
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="index.php"><i class="fa fa-home mr-1"></i>Inicio</a>
+              <a class="nav-link" href="index.php">
+                <div class="row align-items-center mx-1">
+                  <i class="fa fa-home mr-1"></i>
+                  <span class="d-none d-sm-block">Inicio</span>
+                </div>
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="catalogo.php"><i class="fa fa-book mr-1"></i>Catálogo</a>
+              <a class="nav-link" href="catalogo.php">
+                <div class="row align-items-center mx-1">
+                  <i class="fa fa-book mr-1"></i>
+                  <span class="d-none d-sm-block">Catálogo</span>
+                </div>
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Carrito.php"><i class="fa fa-shopping-cart mr-1"></i>Carrito</a>
+              <a class="nav-link" href="Carrito.php">
+                <div class="row align-items-center mx-1">
+                  <i class="fa fa-shopping-cart mr-1"></i>
+                  <span class="d-none d-sm-block">Carrito</span>
+                </div>
+              </a>
             </li>
           </ul>
           <!-- /Lista de barra de navegacion -->
@@ -23,10 +38,11 @@
         <!-- /Barra de navegacion -->
       </div>
       <!-- /se crea contenedor del menu -->
+
       <!-- Divicion de la barra de buscar -->
-      <div class="col-sm-12 col-md-6 offset-md-2 d-flex align-items-sm-center">
+      <div class="col-12 col-sm-12 col-md-6 d-flex align-items-md-center pb-2 pb-md-0">
         <!-- Formulario -->
-        <from class="d-flex flex-sm-fill">
+        <form class="d-flex flex-fill">
           <!-- divicion para elementos -->
           <div class="input-group">
             <!-- input -->
@@ -45,7 +61,7 @@
             <!-- /divicion para elementos -->
           </div>
           <!-- /divicion para elementos -->
-        </from>
+        </form>
         <!-- /Formulario -->
       </div>
       <!-- /Divicion de la barra de buscar -->

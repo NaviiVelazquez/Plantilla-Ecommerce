@@ -9,7 +9,7 @@
             <!-- Formulario -->
             <form id="suscribeForm" action="#" method="POST">
               <!-- Titulo para atraer al usuario -->
-              <h4 class="text-uppercase">
+              <h4 class="text-uppercase text-center">
                 ¿Quieres recibir todas las novedades?
               </h4>
               <!-- /Titulo para atraer al usuario -->
@@ -17,23 +17,26 @@
               <div class="form-group">
                 <input id="inputCorreo" type="email" class="form-control" id="email" name="email" placeholder="micorreo@correo.com">
                 <!-- Etiqueta para generar confianza -->
-                <small class="form-text text-muted">
-                  <i class="fa fa-lock mr-1"></i>Tu información está protegida
+                <small class="form-text text-muted text-center">
+                  <i class="fa fa-lock mr-1"></i>
+                  Tu información está protegida
                 </small>
                 <!-- /Etiqueta para generar confianza -->
               </div>
               <!-- /Divicion para el el input -->
               <!-- Boton para envio de correo -->
-              <button type="submit" class="btn btn-primary form-text mt-2">
-                Suscribirme
-              </button>
+              <div class="row justify-content-center">
+                <button type="submit" class="btn btn-primary form-text mt-2">
+                  Suscribirme
+                </button>
+              </div>
               <!-- /Boton para envio de correo -->
             </form>
             <!-- Formulario -->
           </div>
           <!-- /Columna de suscripcion -->
           <!-- Divicion para el menu de navegacion -->
-          <div class="col-md-5 offset-md-2">
+          <div class="col-md-5 offset-md-2 text-center">
             <!-- lista de navegación -->
             <ul id="listaFooter" class="list-group">
                 <a href="index.php" class="list-group-item list-group-item-action">Inicio</a>

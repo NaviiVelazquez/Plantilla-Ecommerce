@@ -104,17 +104,17 @@
       <!-- Contenedor de las colunas -->
       <div class="container">
         <!-- fila de las columnas -->
-        <div class="row text-sm-center">
+        <div class="row text-center">
           <!-- colunas -->
-          <div class="col-sm-12 col-md-4">
+          <div class="col-12 col-md-4">
             <img src="Imagenes/Calidad.png" alt="" class="img-fluid">
             <h3>Calidad</h3>
           </div>
-          <div class="col-sm-12 col-md-4">
+          <div class="col-12 col-md-4">
             <img src="Imagenes/Envio.png" alt="" class="img-fluid">
             <h3>Envio Gratis</h3>
           </div>
-          <div class="col-sm-12 col-md-4">
+          <div class="col-12 col-md-4">
             <img src="Imagenes/Soporte.png" alt="" class="img-fluid">
             <h3>Soporte</h3>
           </div>

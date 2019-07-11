@@ -15,12 +15,6 @@ body {
   color: white;
 }
 
-/* Damos tamaño a la imagen que se usara para logotipo */
-.logo {
-  width: 50px;
-  height: 50px;
-}
-
 /* Color de la barra de navegacion */
 #menu-container {
   background-color: #eeeeee;
