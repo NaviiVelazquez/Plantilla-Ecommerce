@@ -23,7 +23,7 @@
         <!-- Columna del boton iniciar session -->
         <div class="col-2 col-sm-6 col-md-8">
           <div class="row justify-content-center justify-content-sm-end pr-1">
-            <button type="button" class="btn btn-dark">
+            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#ModalLogin">
               <div class="row align-items-center px-2">
                 <span class="d-none d-sm-block">Iniciar Session</span>
                 <i class="fa fa-sign-in-alt ml-1"></i>
@@ -40,3 +40,7 @@
   <!-- /Contenedor de las columnas -->
 </header>
 <!-- /Inicio de Header -->
+
+<!-- Modal -->
+<?php include("Componentes/modalLogin.php"); ?>
+<!-- /Modal -->
